@@ -19,4 +19,4 @@ while True:
   )
   bot_reply=(response["choices"][0]["text"])
   session_prompt=f"{session_prompt}{restart_sequence}{UserInput}{start_sequence}{bot_reply}"
-  print(session_prompt)
+  print(bot_reply)
